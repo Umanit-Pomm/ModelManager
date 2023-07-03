@@ -92,6 +92,7 @@ abstract class FlexibleContainer implements FlexibleEntityInterface, \IteratorAg
      *
      * @see FlexibleEntityInterface
      */
+    #[\ReturnTypeWillChange]
     public function getIterator()
     {
         return new \ArrayIterator($this->extract());
