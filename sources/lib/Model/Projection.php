@@ -56,6 +56,7 @@ class Projection implements \IteratorAggregate
      * @access public
      * @return \ArrayIterator
      */
+    #[\ReturnTypeWillChange]
     public function getIterator()
     {
         return new \ArrayIterator($this->types);

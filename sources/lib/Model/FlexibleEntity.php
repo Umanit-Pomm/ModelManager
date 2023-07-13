@@ -270,6 +270,7 @@ abstract class FlexibleEntity extends FlexibleContainer implements \ArrayAccess
     /**
      * getIterator
      *
+     * @return \Traversable
      * @see FlexibleEntityInterface
      */
     public function getIterator()
@@ -345,6 +346,7 @@ abstract class FlexibleEntity extends FlexibleContainer implements \ArrayAccess
 
     /**
      * {@inheritdoc}
+     * @return bool
      */
     #[\ReturnTypeWillChange]
     public function offsetExists($offset)
@@ -356,6 +358,7 @@ abstract class FlexibleEntity extends FlexibleContainer implements \ArrayAccess
 
     /**
      * {@inheritdoc}
+     * @return void
      */
     #[\ReturnTypeWillChange]
     public function offsetSet($offset, $value)
@@ -365,6 +368,7 @@ abstract class FlexibleEntity extends FlexibleContainer implements \ArrayAccess
 
     /**
      * {@inheritdoc}
+     * @return mixed
      */
     #[\ReturnTypeWillChange]
     public function offsetGet($offset)
@@ -374,6 +378,7 @@ abstract class FlexibleEntity extends FlexibleContainer implements \ArrayAccess
 
     /**
      * {@inheritdoc}
+     * @return void
      */
     #[\ReturnTypeWillChange]
     public function offsetUnset($offset)

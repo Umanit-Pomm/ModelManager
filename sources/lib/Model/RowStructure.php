@@ -241,6 +241,8 @@ class RowStructure implements \ArrayAccess
     }
 
     /**
+     * @return void
+     * @throws ModelException
      * @see \ArrayAccess
      */
     #[\ReturnTypeWillChange]
@@ -250,6 +252,8 @@ class RowStructure implements \ArrayAccess
     }
 
     /**
+     * @return mixed
+     * @throws ModelException
      * @see \ArrayAccess
      */
     #[\ReturnTypeWillChange]
@@ -259,6 +263,8 @@ class RowStructure implements \ArrayAccess
     }
 
     /**
+     * @return bool
+     * @throws ModelException
      * @see \ArrayAccess
      */
     #[\ReturnTypeWillChange]
@@ -268,6 +274,8 @@ class RowStructure implements \ArrayAccess
     }
 
     /**
+     * @return void
+     * @throws ModelException
      * @see \ArrayAccess
      */
     #[\ReturnTypeWillChange]

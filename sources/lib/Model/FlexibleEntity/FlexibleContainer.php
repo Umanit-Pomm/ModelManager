@@ -90,6 +90,7 @@ abstract class FlexibleContainer implements FlexibleEntityInterface, \IteratorAg
     /**
      * getIterator
      *
+     * @return \Traversable
      * @see FlexibleEntityInterface
      */
     #[\ReturnTypeWillChange]
